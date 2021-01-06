@@ -4,6 +4,10 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
+		"dev": "ts-node ./src/Main.ts",
+		"test:shuffle": "ts-node ./src/test/Shuffle.test.ts",
+		"test:monteCarlo": "ts-node ./src/test/MonteCarlo.test.ts",
+		"game:mineSweeper": "ts-node ./src/game/mineSweeper"
 	},
 	"author": "",
 	"license": "ISC",
